@@ -1,0 +1,68 @@
+  .drag-file-area {
+    border: 2px dashed #2166D1;
+    border-radius: 20px;
+    /* margin: 10px 0 15px; */
+    padding: 40px 70px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .drag-file-area .upload-icon {
+    font-size: 50px;
+    color:#637381;
+  }
+  
+  .drag-file-area label {
+    font-size: 19px;
+    color:#637381;
+  }
+  
+  .drag-file-area label .browse-files-text {
+    color: #2166D1;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: -200px;
+  }
+  
+  .browse-files span {
+    position: relative;
+    /* top: -25px; */
+    margin-right: 40px;
+  }
+  
+  .default-file-input {
+    opacity: 0;
+  }
+  
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+
+  
+
+
+.error-message{
+  color: red;
+  font-size: 12px !important;
+  margin: 0px 5px !important;
+  margin-top: 5px  !important ; 
+  animation-name: slide-bottom ;
+  animation-duration: 0.3s ;
+}
+.slide-bottom {
+  animation: slide-bottom 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+  
